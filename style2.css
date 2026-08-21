@@ -6,3 +6,14 @@
     margin: 30px;
     border: 3px solid black;
 }
+#cl{
+    background-image: url(images.png);
+    width: 300px;
+    padding: 50px;
+    opacity: 0.8;
+    border: 19px solid black;
+}
+h1{
+    opacity: 0.3;
+    
+}
