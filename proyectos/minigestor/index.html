@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gestor de Gastos</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+
+    <main class="contenedor">
+
+        <h1>Gestor de Gastos</h1>
+
+        <form id="formulario-gasto">
+
+            <div>
+                <label for="nombre">Nombre del gasto</label>
+                <input
+                    id="nombre"
+                    type="text"
+                    placeholder="Ej: Almuerzo"
+                >
+            </div>
+
+            <div>
+                <label for="precio">Precio</label>
+                <input
+                    id="precio"
+                    type="number"
+                    placeholder="Ej: 18000"
+                >
+            </div>
+
+            <div>
+                <label for="categoria">Categoría</label>
+
+                <select id="categoria">
+                    <option value="comida">Comida</option>
+                    <option value="transporte">Transporte</option>
+                    <option value="ocio">Ocio</option>
+                    <option value="otros">Otros</option>
+                </select>
+            </div>
+
+            <button type="submit">
+                Agregar gasto
+            </button>
+
+        </form>
+
+        <p id="mensaje"></p>
+
+        <section>
+
+            <h2>Mis gastos</h2>
+
+            <div id="lista-gastos"></div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
