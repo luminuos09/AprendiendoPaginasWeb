@@ -14,7 +14,7 @@ function CalcularNota() {
         txtNota2.value.trim().length === 0 || 
         txtNota3.value.trim().length === 0) {
         
-        txtMostrar.innerText = "Ingrese todas las notas";
+        alert("Ingrese sus notas")
     } else {
         const nota1 = parseFloat(txtNota1.value);
         const nota2 = parseFloat(txtNota2.value);
