@@ -1,0 +1,30 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.Header-Main{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    
+
+
+}
+
+.Header-Main div{
+    display: inline-block;
+    padding-left: 200px;
+}
+
+.header-navs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-navs a{
+    padding: 3px;
+}
+   
+
+
